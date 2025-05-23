@@ -4,15 +4,19 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Roboto;
+}
 .headerbody {
     background-color: #1F2937;
 }
 
 .hbtop {
-    
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .hblogo {
@@ -22,7 +26,7 @@
 
 ul {
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 
 li , a {
@@ -30,4 +34,33 @@ li , a {
     font-size: 18px;
     list-style-type: none;
     text-decoration: none;
+}
+
+.hbmain {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 100px 100px;
+    padding-bottom: 100px;
+    color: #E5E7EB;
+
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #63686e;
+    width: 400px;
+    height: 200px;
+}
+
+.hbleft {
+    max-width: 444px;
+}
+
+.hbtitle {
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
 }
