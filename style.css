@@ -124,7 +124,6 @@ p {
   color: #1f2937;
   font-size: 36px;
   font-style: italic;
- 
 }
 
 .quote-author {
@@ -132,4 +131,28 @@ p {
   color: #1f2937;
   font-size: 18px;
   font-weight: 900;
+}
+
+.action-sec {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.action {
+  background-color: #3882f6;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  padding: 30px;
+}
+
+.action-text2 {
+    color: #f9faf8;
+}
+
+.action-subtext {
+    color: #e5e7eb;
+    font-weight: 200;
 }
